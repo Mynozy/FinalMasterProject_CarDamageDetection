@@ -1,0 +1,13 @@
+# Pesos innecesarios
+**/last.pt
+
+# Imágenes de validación/train generadas por YOLO
+**/train/
+**/val/
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+venv/
