@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['crack', 'dent', 'glass shatter', 'lamp broken', 'scratch', 'tire flat']
+
+roboflow:
+  workspace: miotistudent
+  project: bb_cardamage-final
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/miotistudent/bb_cardamage-final/dataset/1
